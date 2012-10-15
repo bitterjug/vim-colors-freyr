@@ -1,7 +1,7 @@
 My Gvim Colourscheme based on Freya
 ===================================
 
-This is my vim colourscheme which I based on [freya][2]
+This is my vim colourscheme which I based on [freya][2].
 _Freyr_ was the brother of [Freyja][1].
 
 [1]: https://en.wikipedia.org/wiki/Freyja 
