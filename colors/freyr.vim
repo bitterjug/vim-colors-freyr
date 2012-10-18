@@ -16,10 +16,6 @@ hi Normal ctermbg=0 ctermfg=7 cterm=none guibg=#2a2a2a guifg=#dcdccc gui=none
 hi Cursor guibg=fg guifg=bg gui=none
 hi CursorColumn guibg=#3f3f3f gui=none
 hi CursorLine guibg=#3f3f3f gui=none
-hi DiffAdd guibg=#3d563c guifg=fg gui=none
-hi DiffChange guibg=#3d3e57 guifg=fg gui=none
-hi DiffDelete guibg=#573d3e guifg=fg gui=none
-hi DiffText guibg=#54588a guifg=fg gui=bold
 hi Directory guibg=bg guifg=#d4b064 gui=none
 hi ErrorMsg guibg=bg guifg=#f07070 gui=bold
 hi FoldColumn ctermbg=bg guibg=bg guifg=#c2b680 gui=none
@@ -100,3 +96,9 @@ hi MarkWord3  ctermbg=Yellow   ctermfg=Black  guibg=#FFDB72    guifg=Black
 hi MarkWord4  ctermbg=Red      ctermfg=Black  guibg=#FF7272    guifg=Black
 hi MarkWord5  ctermbg=Magenta  ctermfg=Black  guibg=#FFB3FF    guifg=Black
 hi MarkWord6  ctermbg=Blue     ctermfg=Black  guibg=#9999FF    guifg=Black
+
+" Diff
+hi DiffAdd guibg=#323d31 guifg=fg gui=none
+hi DiffChange guibg=#31323d guifg=fg gui=none
+hi DiffDelete guibg=#3d3132 guifg=#3d3132
+hi DiffText guibg=#54588a guifg=fg gui=bold
