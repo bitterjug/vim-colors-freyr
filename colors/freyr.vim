@@ -37,10 +37,10 @@ hi SpecialKey guibg=bg guifg=#d4b064 gui=none
 " I prefer the following but it makes the window manager hard to use
 hi SpecialKey guibg=bg guifg=#4a4a59 cterm=NONE ctermfg=black
 if has("spell")
-    hi SpellBad guisp=#f07070 gui=undercurl
-    hi SpellCap guisp=#7070f0 gui=undercurl
-    hi SpellLocal guisp=#70f0f0 gui=undercurl
-    hi SpellRare guisp=#f070f0 gui=undercurl
+    hi SpellBad ctermbg=52 guisp=#f07070 gui=undercurl
+    hi SpellCap ctermbg=52 guisp=#7070f0 gui=undercurl
+    hi SpellLocal ctermbg=52 guisp=#70f0f0 gui=undercurl
+    hi SpellRare ctermbg=52 guisp=#f070f0 gui=undercurl
 endif
 hi StatusLine ctermbg=7 ctermfg=0 guibg=#736559 guifg=#f7f7f1 gui=bold
 hi StatusLineNC ctermbg=8 ctermfg=0 guibg=#564d43 guifg=#f7f7f1 gui=none
