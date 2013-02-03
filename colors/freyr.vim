@@ -21,7 +21,7 @@ hi ErrorMsg guibg=bg guifg=#f07070 gui=bold
 hi FoldColumn ctermbg=bg guibg=bg guifg=#c2b680 gui=none
 hi Folded guibg=#101010 guifg=#c2b680 gui=none
 hi IncSearch guibg=#866a4f guifg=fg gui=none
-hi LineNr guibg=bg guifg=#4e4457 gui=none
+hi LineNr ctermfg=240 guibg=bg guifg=#4e4457 gui=none
 hi ModeMsg guibg=bg guifg=fg gui=bold
 hi MoreMsg guibg=bg guifg=#dabfa5 gui=bold
 hi NonText ctermfg=8 guibg=bg guifg=#4e4457 gui=bold
@@ -48,7 +48,6 @@ hi StatusLineNC ctermbg=8 ctermfg=0 guibg=#564d43 guifg=#f7f7f1 gui=none
 " hi TabLineFill guibg=#564d43 guifg=#f7f7f1 gui=underline
 " hi TabLineSel guibg=bg guifg=#f7f7f1 gui=bold
 hi Title ctermbg=0 ctermfg=15 guifg=#f7f7f1 gui=bold
-hi VertSplit ctermbg=7 ctermfg=0 guibg=#564d43 guifg=#f7f7f1 gui=none
 if version >= 700
     hi Visual ctermbg=7 ctermfg=0 guibg=#5f5f5f gui=none
 else
@@ -83,7 +82,7 @@ hi htmlUnderlineItalic ctermbg=0 ctermfg=15 guibg=bg guifg=fg gui=underline,ital
 "Mark's hack for making folding more bearable
 hi Folded term=standout cterm=bold ctermfg=6 ctermbg=0 guifg=#8f876d guibg=#242424
 " Custom vertical split
-hi VertSplit ctermbg=7 ctermfg=0 guibg=#564d43 guifg=#564d43 gui=none
+hi VertSplit ctermbg=235  ctermfg=235 guibg=#564d43 guifg=#564d43 gui=none
 " Marks custom stuff
 hi TabLine guibg=#564d43 guifg=#c2b680 gui=none
 hi TabLineFill guibg=#564d43 guifg=#f7f7f1 gui=none
